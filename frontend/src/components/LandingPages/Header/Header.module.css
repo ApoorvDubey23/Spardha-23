@@ -80,7 +80,7 @@
   
 }
 .mini-nav-items:hover{
-  border-bottom: 3px solid red;
+  color:  red;
 }
 .navbar-toggler-active:active,
 .navbar-toggler-open:focus {
@@ -186,4 +186,7 @@ font-family: 'Montserrat';
 }
 @media only screen and (min-width: 1280px) {
   /* CSS styles for large desktops and monitors */
+}
+.icons_lower:hover {
+color: red;
 }
