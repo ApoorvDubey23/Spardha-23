@@ -17,14 +17,6 @@ function Carousel() {
     };
   }, [currentSlide,images.length]);
 
-  const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + images.length) % images.length);
-  };
-
-  const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-  };
-
   return (
     <div className="carousel-home">
    
