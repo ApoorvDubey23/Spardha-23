@@ -128,11 +128,11 @@ width: max-content;
 }
 
 .ctext {
-	font-size: 2.5vh;
+	font-size: 2.7vh;
 	margin: 0px;
 	height: 30%;
 	display: flex;
-	padding: 0.7vw;
+	padding: 0.5vw;
 	flex-wrap: wrap;
 	background-color: red;
 	color: white;
