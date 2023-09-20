@@ -2,7 +2,77 @@
   padding: 2em 0;
   position: relative;
 }
+.maindiv{
+  height: fit-content;
+  z-index: 1;
+  position: relative;
+  overflow: auto;
+  background: #FFFFFFE5;
+  width: 100%;
+  border-radius: 20px;
 
+}
+.scrollablediv{
+  height: 70vh;
+  z-index: 1;
+  position: relative;
+  overflow: auto;
+
+  width: 100%;
+  border-radius: 20px;
+
+}
+/* Customize scrollbar appearance (optional) */
+.scrollablediv::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+.scrollablediv::-webkit-scrollbar-thumb {
+
+
+  background-color: #760E53;
+  border-radius: 200px;
+}
+
+/* .scrollable-div::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}  */
+
+.col_2{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.col_2 p{
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.H2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #760E53;
+  width: 100%;
+  padding-left: 4vw;
+font-size: 35px;
+height: 15vh;
+font-family: Poppins;
+text-decoration: underline;
+}
 @media (max-width: 767.98px) {
   .ftco_section {
     padding: 6em 0;
@@ -58,8 +128,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+padding: 0px 2vw;
   justify-content: space-around;
 }
 
@@ -141,18 +210,11 @@
   margin-bottom: 0.25rem !important;
 }
 
-.H2 {
-  margin-bottom: 0.5rem;
-  font-family: inherit;
-  font-weight: 700;
-  line-height: 1.2;
-  color: inherit;
-  color: #000;
-}
+
 
 .col_1 {
   position: relative;
-  width: 100%;
+  width: 100px;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
@@ -162,24 +224,35 @@
   max-width: 8.33333%;
 }
 
-.col_2 {
+.col_2{
   position: relative;
-  width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 25%;
-  flex: 0 0 25%;
-  max-width: 25%;
+
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .padding {
   padding: 10px !important;
   cursor: pointer;
-  background: transparent;
-}
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
 
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  margin: 2vh 0vh;
+}
+.padding:hover{
+  border: 2px solid #760E53 ;
+}
 .padding1 {
   padding: 10px !important;
   background: transparent;
@@ -204,11 +277,17 @@
 .grayscale {
   -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
   filter: grayscale(50%);
+  height: 140px;
+  width: 140px;
+
+  
 }
 
 .grayscale:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
+  
+
 }
 
 .shake img:hover {
