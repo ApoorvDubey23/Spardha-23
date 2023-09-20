@@ -662,7 +662,7 @@ const chessMouseLeave = () => {
           </div> */}
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="0"      onMouseEnter={athleticsMouseEnter}
             onMouseLeave={athleticsMouseLeave}
           >
@@ -676,7 +676,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="1"
             onMouseEnter={badmintonMouseEnter}
             onMouseLeave={badmintonMouseLeave}
@@ -692,7 +692,7 @@ const chessMouseLeave = () => {
                 
           </div>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="2"
             onMouseEnter={basketballMouseEnter}
             onMouseLeave={basketballMouseLeave}
@@ -706,7 +706,7 @@ const chessMouseLeave = () => {
           <p>Basketball</p>
           </div>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="3"
             onMouseEnter={boxingMouseEnter}
             onMouseLeave={boxingMouseLeave}
@@ -762,7 +762,7 @@ const chessMouseLeave = () => {
           </div> */}
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="0"
             onMouseEnter={chessMouseEnter}
             onMouseLeave={chessMouseLeave}
@@ -777,7 +777,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="1"
             onMouseEnter={cricketMouseEnter}
             onMouseLeave={cricketMouseLeave}
@@ -791,7 +791,7 @@ const chessMouseLeave = () => {
              <p>Cricket</p>
           </div>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="2"
             onMouseEnter={cyclingMouseEnter}
             onMouseLeave={cyclingMouseLeave}
@@ -806,7 +806,7 @@ const chessMouseLeave = () => {
 
           </div>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="3"
             onMouseEnter={footballMouseEnter}
             onMouseLeave={footballMouseLeave}
@@ -854,7 +854,7 @@ const chessMouseLeave = () => {
 
         <div className={`${styles.row}`}>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="0"
             onMouseEnter={handballMouseEnter}
             onMouseLeave={handballMouseLeave}
@@ -870,7 +870,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="1"
             onMouseEnter={hockeyMouseEnter}
             onMouseLeave={hockeyMouseLeave}
@@ -885,7 +885,7 @@ const chessMouseLeave = () => {
 
           </div>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="2"
             onMouseEnter={kabaddiMouseEnter}
             onMouseLeave={kabaddiMouseLeave}
@@ -901,7 +901,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="3"
             onMouseEnter={khokhoMouseEnter}
             onMouseLeave={khokhoMouseLeave}
@@ -957,7 +957,7 @@ const chessMouseLeave = () => {
 
         <div className={`${styles.row}`}>
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="0"
             onMouseEnter={powerliftingMouseEnter}
             onMouseLeave={powerliftingMouseLeave}
@@ -973,7 +973,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="1"
             onMouseEnter={squashMouseEnter}
             onMouseLeave={squashMouseLeave}
@@ -989,7 +989,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="2"
             onMouseEnter={tabletennisMouseEnter}
             onMouseLeave={tabletennisMouseLeave}
@@ -1005,7 +1005,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="3"
             onMouseEnter={taekwondoMouseEnter}
             onMouseLeave={taekwondoMouseLeave}
@@ -1045,14 +1045,14 @@ const chessMouseLeave = () => {
           ) : null}
         </div>
 
-        <div className={`${styles.row}`}>
+        <div className={`${styles.row} ${styles.lastrow} `}>
           {/*<div
             className={`${styles.col_2} ${styles.padding1} ${styles.shake}`}
             id="0"
          ></div> */}
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="0"
             onMouseEnter={tennisMouseEnter}
             onMouseLeave={tennisMouseLeave}
@@ -1068,7 +1068,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="1"
             onMouseEnter={volleyballMouseEnter}
             onMouseLeave={volleyballMouseLeave}
@@ -1084,7 +1084,7 @@ const chessMouseLeave = () => {
           </div>
 
           <div
-            className={`${styles.col_2} ${styles.padding} ${styles.shake}`}
+            className={`${styles.col_2} ${styles.padding} `}
             id="2"
             onMouseEnter={weightliftingMouseEnter}
             onMouseLeave={weightliftingMouseLeave}
@@ -1098,6 +1098,8 @@ const chessMouseLeave = () => {
              <p>Weightlifting</p>
 
           </div>
+          <div
+            className={`${styles.col_2} ${styles.padding} ${styles.emptyblock} `} style={{backgroundColor:'transparent'}}></div>
 
           {/* <div
             className={`${styles.col_2} ${styles.padding1} ${styles.shake}`}
