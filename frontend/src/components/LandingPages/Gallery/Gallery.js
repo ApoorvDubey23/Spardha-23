@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel1 from '../Home/Carousel/Carouselhp';
+
 // import GalleryModal from '../GalleryModal/GalleryModal';
 // import Background_gallery from '/images/bg/bg_football.png';
 
@@ -39,14 +39,14 @@ const Gallery = () => {
 
   return (
     <>
-    <Carousel1/>
+
       <section id="gallery" className="ftco-section padSect">
         <div className="container_gallery gallery-container mb-5 pt-1">
           <div className="row_gallery justify-content-center pt-5">
             <div className="col-md-7 heading-section_gallery text-center">
               <h3
                 className="subheading_gallery"
-                style={{ color: '#6db549', fontWeight: '900' }}
+                style={{ color: '#760e53', fontWeight: '900' }}
               >
                 Some Past Memories
               </h3>

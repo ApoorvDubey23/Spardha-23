@@ -6,6 +6,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+background-color: #ded1dee5;
 }
 
 @media (min-width: 576px) {
@@ -107,9 +108,7 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
 }
 
-.tz-gallery img {
-  border-radius: 4px;
-}
+
 
 .image-popup_gallery {
   cursor: -webkit-zoom-in;
@@ -137,7 +136,7 @@
 }
 
 .padSect {
-  padding: 7em 0;
+
   position: relative;
 }
 
