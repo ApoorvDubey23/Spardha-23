@@ -9,7 +9,7 @@ const Greencounter = () => {
       className={`${styles.ftco_counter} ${styles.ftco_bg_dark} ${styles.img}`}
       id={`${styles.section_counter}`}
     >
-      <div style={{ background: 'rgba(255, 0, 0, 0.259)', opacity: '0.8' }}>
+      <div style={ {opacity: '0.8'}}>
         <div className={`${styles.overlay}`}></div>
         <div class={`${styles.container_gc}`} style={{ margin: 'auto' }}>
           <div class={`${styles.row_gc}`}>

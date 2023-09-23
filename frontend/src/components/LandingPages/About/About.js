@@ -25,8 +25,8 @@ const About = () => {
                       // fontSize: '3.5em',
                       fontfamily: 'Poppins',
                       fontWeight: '700',
-                      fontSize: '50px ',
-                      marginBottom: '0.6em',
+                      fontSize: '30px ',
+                      marginBottom: '1em',
                       marginTop: '1em',
                       letterSpacing: '2px',
 
