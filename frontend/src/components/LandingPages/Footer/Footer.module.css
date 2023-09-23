@@ -12,18 +12,30 @@ hr {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  padding-right: 5%;
+  padding-right: 1%;
   background-color: #ffffff;
   opacity: 0.8;
   border-radius: 8px;
   height: 80%;
-  margin: 85px 10% 0;
+  margin: 100px 200px 32px 200px;
   font-size: small;
+  position: fixed;
 }
 .content123 {
   display: flex;
   flex-wrap: wrap;
   gap: 2vw;
+  overflow-y: auto;
+  padding-right: 4rem;
+}
+.content123::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 10px;
+}
+
+.content123::-webkit-scrollbar-thumb {
+  background-color: #760e53;
+  border-radius: 200px;
 }
 .events,
 .convenor,
@@ -35,7 +47,7 @@ hr {
 
 .ftco_footer {
   font-size: 16px;
-  padding: 1em 0;
+  /* padding: 1em 0; */
   background: #120f0f40;
   display: block;
   box-sizing: border-box;
@@ -114,7 +126,7 @@ i {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
   h6 {
     font-size: small;
@@ -149,13 +161,33 @@ i {
     margin-right: 4%;
   }
 }
-body {
-  max-width: calc(100vw - 17px);
+@media (max-width: 730px) {
+  .container{
+    margin: 100px 100px 32px 100px;
+  }
 }
-
-@media (pointer: coarse) {
-
-  body {
-width: 100vw;
+@media (max-width: 540px) {
+  .container{
+    margin: 100px 50px 32px 50px;
+  }
+}
+@media (max-width: 450px) {
+  .container{
+    margin: 100px 30px 32px 30px;
+  }
+}
+@media (max-width: 395px) {
+  .container{
+    margin: 100px 11px 32px 11px;
+  }
+}
+@media (max-width: 350px) {
+  .content123{
+    padding-right: 0px;
+  }
+}
+@media (max-width:1450px) {
+  .links{
+    height: 60%;
   }
 }

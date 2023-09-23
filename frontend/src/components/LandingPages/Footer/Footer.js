@@ -21,7 +21,7 @@ const Footer = () => {
                   <div>
                     <h5><b>Convenor:</b></h5>
                     <h6 className={styles.name}>Himanshu Ranjan</h6>
-                    <h6>himanshu.ranjan.met22@itbhu.ac.in</h6>
+                    <h6>himanshu.ranjan.met20@itbhu.ac.in</h6>
                   </div>
                   <div>
                     <h5><b>Co-convenors:</b></h5>
@@ -87,6 +87,10 @@ const Footer = () => {
                   <div className={styles.logo}>
                     <i class="fa-solid fa-globe fa-2xl"></i>
                     <a href="spardha.org.in" className={styles.link}>spardha.org.in</a>
+                  </div>
+                  <div className={`${styles.logo} ${styles.name}`}>
+                  <h5>For Tech Related Query</h5>
+                  <a href="tech@spardha.org.in" className={styles.link}>tech@spardha.org.in</a>
                   </div>
                   <br />
                 </div>
