@@ -149,3 +149,13 @@ i {
     margin-right: 4%;
   }
 }
+body {
+  max-width: calc(100vw - 17px);
+}
+
+@media (pointer: coarse) {
+
+  body {
+width: 100vw;
+  }
+}

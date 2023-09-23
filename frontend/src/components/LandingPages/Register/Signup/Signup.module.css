@@ -54,6 +54,7 @@
   border-radius: 30px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: -12px;
 }
 
 .panel-heading {
@@ -122,6 +123,7 @@
   font-size: 14px !important;
   color: #555;
   border-left: none !important;
+  margin-bottom: -12px;
 }
 
 .form-control:focus,
@@ -338,4 +340,7 @@
     color:#000000;
     padding-right: 1%;
   }
+}
+.abc123{
+  margin-bottom: -12px;
 }

@@ -211,6 +211,7 @@ function Login() {
                 </h4>
               </div>
             </div>
+            <div className={styles.abc123}>
             <AnimatePresence>
               <motion.div 
             initial={{ y: 10, opacity: 0 }}
@@ -592,6 +593,7 @@ function Login() {
                 </div>
               </Row> */}
             </FormGroup></motion.div></AnimatePresence>
+            </div>
           </div>
 
           

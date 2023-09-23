@@ -16,24 +16,27 @@ const About = () => {
             <div className={styles.container}>
              
 
-              <div className={styles['row']}>
-                <div className={styles['col-md-12']}>
                   <h2
                     className={styles['mb-1']}
                     style={{
                       color: '#760E53',
                       // fontSize: '3.5em',
                       fontfamily: 'Poppins',
+                      margin:'0px',
+                      marginBottom:'20px',
                       fontWeight: '700',
                       fontSize: '30px ',
-                      marginBottom: '1em',
-                      marginTop: '1em',
+                
+                      
                       letterSpacing: '2px',
+                      textDecoration:"underline"
 
                     }}
                   >
                     ABOUT US
                   </h2>
+              <div className={styles['row']}>
+                <div className={styles['col-md-12']}>
                   <div className={styles['block-7']} id={styles['borderline']}>
                     <div className={styles['text-justify']}>
 
@@ -52,7 +55,7 @@ const About = () => {
                   </div>
 
                 </div>
-
+<div className={styles.midsection}>
                 <div className={styles['col-md-4']}>
                   <div className={styles['block-7']}>
                     <div style={{ textAlign: 'center' }}>
@@ -157,6 +160,7 @@ const About = () => {
                         <br />
                       </p>
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>

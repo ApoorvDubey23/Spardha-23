@@ -162,3 +162,13 @@ section {
   margin-right: -15px;
   margin-left: -7px;
 }
+body {
+  max-width: calc(100vw - 17px);
+}
+
+@media (pointer: coarse) {
+
+  body {
+width: 100vw;
+  }
+}

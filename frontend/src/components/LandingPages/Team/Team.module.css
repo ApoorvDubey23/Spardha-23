@@ -54,3 +54,13 @@
     font-size: 40px !important;
   }
 }
+body {
+  max-width: calc(100vw - 17px);
+}
+
+@media (pointer: coarse) {
+
+  body {
+width: 100vw;
+  }
+}

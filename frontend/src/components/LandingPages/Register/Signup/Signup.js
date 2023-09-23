@@ -334,6 +334,7 @@ function Signup() {
                 </h4>
               </div>
             </div>
+            <div className={styles.abc123}>
             <AnimatePresence>
               <motion.div 
             initial={{ y: 10, opacity: 0 }}
@@ -723,6 +724,7 @@ function Signup() {
                 </div>
               </Row>
             </FormGroup></motion.div></AnimatePresence>
+            </div>
           </div>
 
           <div className="col-sm-12 ">
