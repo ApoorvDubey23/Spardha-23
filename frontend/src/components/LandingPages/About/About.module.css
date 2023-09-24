@@ -17,9 +17,8 @@
   box-sizing: border-box;
 
 }
-
-.scrollcontainer {
-  padding-top: 10vh;
+.maindiv{
+  padding-top: 5vh;
   width: 95%;
   padding-right: 10px;
   padding-left: 10px;
@@ -31,6 +30,26 @@ position: relative;
 top: 16vh;
 border-radius: 10px;
   background: #ded1dee5;
+}
+.scrollcontainer {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+overflow: auto;
+height: 67vh;
+position: relative;
+border-radius: 10px;
+
+
+
+}
+.container{
+  border-radius: 10px;
+}
+.row{
+  border-radius: 10px;
 }
 /* Customize scrollbar appearance (optional) */
 .scrollcontainer::-webkit-scrollbar {

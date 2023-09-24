@@ -11,11 +11,7 @@ const About = () => {
     <>
       <Carousel />
       <div iclassName={styles.aboutus}>
-        <section className="ftco-section">
-          <div className={styles.scrollcontainer}>
-            <div className={styles.container}>
-             
-
+        <section className={styles.maindiv}>
                   <h2
                     className={styles['mb-1']}
                     style={{
@@ -35,6 +31,10 @@ const About = () => {
                   >
                     ABOUT US
                   </h2>
+          <div className={styles.scrollcontainer}>
+            <div className={styles.container}>
+             
+
               <div className={styles['row']}>
                 <div className={styles['col-md-12']}>
                   <div className={styles['block-7']} id={styles['borderline']}>
