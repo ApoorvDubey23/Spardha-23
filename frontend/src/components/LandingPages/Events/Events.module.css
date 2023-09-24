@@ -1118,3 +1118,16 @@ padding-top: 3vh;
     height: fit-content;
   }
 }
+@media(max-width:650px){
+  .maindiv{
+    height: 83vh;
+    position: absolute;
+    bottom: 0%;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .H2{
+    font-size: 24px;
+  }
+}
