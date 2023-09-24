@@ -333,3 +333,10 @@ border-radius: 10px;
   gap: 10px;
   max-width:1120px
 }
+@media (max-width: 768px){
+  .midsection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
