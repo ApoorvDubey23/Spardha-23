@@ -12,10 +12,16 @@ body {
 
   
 }
-
+@media(pointer:coarse){
+	.container-home {
+		flex-direction: column;
+		align-items: center;
+	}
+}
 .container-home {
 	padding-top: 10vh;
 	display: flex;
+	flex-direction: row;
 	position: relative;
 	justify-content: center;
 	align-items: center;
@@ -225,6 +231,7 @@ margin: 0px;
 		max-width: 300px;
 	}
 }
+
 @media (max-width: 790px)  {
 
 	.container-home {
