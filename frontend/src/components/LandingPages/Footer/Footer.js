@@ -51,7 +51,7 @@ const Footer = () => {
                   <h6>gurmeet.student.civ21@itbhu.ac.in</h6>
                   <h6>+91 97858 15941</h6>
                   <h6 className={styles.name}>Dhruv Jain</h6>
-                  <h6>dhruv.jain.cd.mec21@bhu.ac.in</h6>
+                  <h6>dhruv.jain.cd.mec21@itbhu.ac.in</h6>
                   <h6>+91 95489 62930</h6>
                 </div>
                 <div className={styles.hospitality}>
