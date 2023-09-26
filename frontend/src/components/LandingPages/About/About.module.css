@@ -20,6 +20,7 @@
 .maindiv{
   padding-top: 5vh;
   width: 95%;
+  align-self: center;
   padding-right: 10px;
   padding-left: 10px;
   margin-left: auto;
@@ -294,6 +295,7 @@ border-radius: 10px;
   padding-bottom: 20px;
   font-size: 17px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .para2 {
@@ -302,6 +304,7 @@ border-radius: 10px;
   padding-bottom: auto;
   font-size: 17px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .para3 {
@@ -310,6 +313,7 @@ border-radius: 10px;
   padding-bottom: auto;
   font-size: 17px;
   font-weight: 500;
+  text-align: justify;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

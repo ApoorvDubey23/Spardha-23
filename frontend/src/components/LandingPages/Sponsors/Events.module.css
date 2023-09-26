@@ -15,6 +15,7 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  align-self: center;
 }
 
 .scrollablediv{
@@ -199,8 +200,13 @@ padding: 0px 2vw;
 }
 
 @media (max-width: 767.98px) {
+  .H2{
+    display: flex;
+    justify-content: center;
+  }
   .heading_section h2 {
     font-size: 30px;
+  
   }
   .heading_section .subheading {
     font-size: 20px;
@@ -219,6 +225,7 @@ padding: 0px 2vw;
 
 .mb_1 {
   margin-bottom: 0.25rem !important;
+ 
 }
 
 
