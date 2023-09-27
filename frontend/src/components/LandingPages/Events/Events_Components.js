@@ -366,7 +366,7 @@ const Athletics = (props) => {
     >
       <div
         style={{
-          // color: "#760E53",
+          color: "#760E53",
           fontSize: 18,
           fontFamily: "Poppins",
           fontWeight: 600,
@@ -516,35 +516,21 @@ const Athletics = (props) => {
                     >
                       <b>CAPTAIN</b>
                       <br />
-                      Rohit Diwakar
+                      Tagaram Kiran Kumar
                       <br />
-                      8827687934
+                      7396797341
                       <br />
-                      rohit.diwakar.ece19@itbhu.ac.in
-                      <br />
-                      <br />
-                      Anshika Singh <b>(W)</b>
-                      <br />
-                      7985967630
-                      <br />
-                      anshika.singh.phy19@itbhu.ac.in
+                      tagaram.kirankumar.cer20@itbhu.ac.in
                       <br />
                       <br />
-                      <b>VICE-CAPTAIN</b>
+                      Anchal Dhar <b>(W)</b>
                       <br />
-                      Gurjot
+                      8955357448
                       <br />
-                      7528980380
-                      <br />
-                      gurjot.student.ece19@itbhu.ac.in
+                      anchal.dhar.mec21@itbhu.ac.in
                       <br />
                       <br />
-                      Shivanjali Verma <b>(W)</b>
-                      <br />
-                      8869038250
-                      <br />
-                      shivanjali.verma.mec19@itbhu.ac.in
-                      <br />
+                      
                     </p>
                   </div>
                 </div>
@@ -883,7 +869,7 @@ const Badminton = (props) => {
   );
 };
 
-const Badminton = (props) => {
+const Basketball = (props) => {
   return (
     <div className={`${styles.main_event_div}`}>
       {/* <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}> */}

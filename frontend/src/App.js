@@ -8,6 +8,9 @@ import ReactGA from 'react-ga';
 import InitializeReactGA from './helper/googleAnalytics.ts';
 import NotFound from './components/LandingPages/NotFound/NotFound';
 // import { Carousel } from 'react-responsive-carousel';
+import ShowTable from './components/LandingPages/UserData/ShowTable';
+import ShowallTable from './components/LandingPages/UserData/ShowallTable';
+import { AllGameFixtures } from './components/LandingPages/UserData/AllGameFixtures';
 
 const LandingPages = React.lazy(() =>
   import('./components/LandingPages/LandingPages')
@@ -112,15 +115,6 @@ function App() {
             }
           />
           <Route
-           <Route
-            path="/"
-            element={
-              <Suspense fallback={<Spinner />}>
-                <HomePage />
-              </Suspense>
-            }
-          />
-          <Route
             path=""
             element={
               <Suspense fallback={<Preloader />}>
@@ -142,7 +136,6 @@ function App() {
               element={
                 <Suspense fallback={<Preloader />}>
                   <Signup />
-                  
                   
                 </Suspense>
               }
@@ -174,7 +167,6 @@ function App() {
                 </Suspense>
               }
             />
-            
             
             <Route
               exact
@@ -227,14 +219,6 @@ function App() {
             }
           />
           <Route
-            path="matches"
-            element={
-              <Suspense fallback={<Preloader />}>
-                <Matches />
-              </Suspense>
-            }
-          />
-          <Route
             path="guests"
             element={
               <Suspense fallback={<Preloader />}>
@@ -251,7 +235,6 @@ function App() {
             }
           />
           {/* <Route
-          {/* <Route
             path="ca"
             element={
               <Suspense fallback={<Preloader />}>
@@ -259,20 +242,11 @@ function App() {
               </Suspense>
             }
           /> */}
-          /> */}
           <Route
             path="gallery"
             element={
               <Suspense fallback={<Preloader />}>
                 <Gallery />
-              </Suspense>
-            }
-          />
-          <Route
-            path="contactus"
-            element={
-              <Suspense fallback={<Preloader />}>
-                <Footer1 />
               </Suspense>
             }
           />
@@ -352,7 +326,6 @@ function App() {
             }
           />
         
-        
           <Route
             path="events"
             element={
@@ -369,7 +342,6 @@ function App() {
               </Suspense>
             }
           />
-         
          
         </Route>
       </Routes>

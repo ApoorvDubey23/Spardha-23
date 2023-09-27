@@ -225,7 +225,7 @@ margin: 0px;
 		max-width: 300px;
 	}
 }
-@media (max-width: 790px)  {
+@media (max-aspect-ratio:1)  {
 
 	.container-home {
 		flex-direction: column;
