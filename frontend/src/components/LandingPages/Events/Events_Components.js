@@ -883,7 +883,7 @@ const Badminton = (props) => {
   );
 };
 
-const Basketball = (props) => {
+const Badminton = (props) => {
   return (
     <div className={`${styles.main_event_div}`}>
       {/* <div className="row" style={{ marginLeft: '5px', marginRight: '5px' }}> */}

@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
+    "Services.discord_logger.DiscordErrorMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -69,12 +70,13 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.TokenAuthentication",
     ),
      'DEFAULT_THROTTLE_CLASSES': [
-        'rest_framework.throttling.AnonRateThrottle',
-        'rest_framework.throttling.UserRateThrottle'
+        'Spardha.CustomThrottle.CustomAnonThrottle',
+        'Spardha.CustomThrottle.CustomUserThrottle',
     ],
     'DEFAULT_THROTTLE_RATES': {
         'anon': '30/min',
-        'user': '50/min'
+        'user': '50/min',
+        'email': '5/min'
     }
 }
 

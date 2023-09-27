@@ -628,7 +628,21 @@ const chessMouseLeave = () => {
         <Carousel />
       </div>
       <div className={`${styles.container} ${styles.pb_1}`}>
-        
+        <div
+          className={`${styles.row} ${styles.justify_content_center} ${styles.mb_5}`}
+        >
+          <div
+            className={`${styles.col_md_7} ${styles.heading_section} ${styles.text_center}`}
+          >
+            {/* <h3
+              className={`${styles.subheading}`}
+              style={{ color: '#6db549', fontWeight: 'bold' }}
+            >
+              Find Your Interest
+            </h3> */}
+           
+          </div>
+        </div>
       <div className={styles.maindiv}>
         <div className={styles.title}>
       
@@ -636,7 +650,7 @@ const chessMouseLeave = () => {
             Sports &amp; Games
             </h2></div>
           <div>
-            <Link to="/register/login/" className={styles.registerbtn}>Register&nbsp;Now</Link>
+            <Link to="/register/signup/" className={styles.registerbtn}>Register Now</Link>
           </div>
         </div>
             <div className={styles.scrollablediv}>

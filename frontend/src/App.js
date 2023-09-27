@@ -22,6 +22,9 @@ const About = React.lazy(() => import('./components/LandingPages/About/About'));
 const Events = React.lazy(() =>
   import('./components/LandingPages/Events/Events')
 );
+const Admin = React.lazy(() =>
+  import('./components/DashBoard/Admin/Admin')
+);
 const Team = React.lazy(() => import('./components/LandingPages/Team/Team'));
 const Sponsors = React.lazy(() =>
   import('./components/LandingPages/Sponsors/Sponsors')
@@ -109,6 +112,15 @@ function App() {
             }
           />
           <Route
+           <Route
+            path="/"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <HomePage />
+              </Suspense>
+            }
+          />
+          <Route
             path=""
             element={
               <Suspense fallback={<Preloader />}>
@@ -130,6 +142,7 @@ function App() {
               element={
                 <Suspense fallback={<Preloader />}>
                   <Signup />
+                  
                   
                 </Suspense>
               }
@@ -161,6 +174,7 @@ function App() {
                 </Suspense>
               }
             />
+            
             
             <Route
               exact
@@ -213,6 +227,14 @@ function App() {
             }
           />
           <Route
+            path="matches"
+            element={
+              <Suspense fallback={<Preloader />}>
+                <Matches />
+              </Suspense>
+            }
+          />
+          <Route
             path="guests"
             element={
               <Suspense fallback={<Preloader />}>
@@ -229,12 +251,14 @@ function App() {
             }
           />
           {/* <Route
+          {/* <Route
             path="ca"
             element={
               <Suspense fallback={<Preloader />}>
                 <CamAmb />
               </Suspense>
             }
+          /> */}
           /> */}
           <Route
             path="gallery"
@@ -252,8 +276,49 @@ function App() {
               </Suspense>
             }
           />
+          <Route
+            path="contactus"
+            element={
+              <Suspense fallback={<Preloader />}>
+                <Footer1 />
+              </Suspense>
+            }
+          />
         </Route>
+        
+        <Route
+          path="admin"  
+          element={
+            <Suspense fallback={<Preloader />}>
+              <Admin/>
+            </Suspense>
+          }
+          />
+          <Route
+            path="admin/showtable"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <ShowTable />
+              </Suspense>
+            }
+          />
+           <Route
+            path="admin/allgames"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <AllGameFixtures />
+              </Suspense>
+            }
+          />
 
+          <Route
+            path="admin/allusers"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <ShowallTable />
+              </Suspense>
+            }
+          />
         <Route
           path="/dashboard"
           element={
@@ -287,6 +352,7 @@ function App() {
             }
           />
         
+        
           <Route
             path="events"
             element={
@@ -303,6 +369,7 @@ function App() {
               </Suspense>
             }
           />
+         
          
         </Route>
       </Routes>
