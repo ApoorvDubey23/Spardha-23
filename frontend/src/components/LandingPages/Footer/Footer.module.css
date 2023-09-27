@@ -5,9 +5,53 @@ hr {
   color: #760e53;
   padding-top: 2%;
 }
+hr {
+  width: 90%;
+}
+.heading123 {
+  color: #760e53;
+  padding-top: 2%;
+}
 #contactus {
   position: fixed;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 1%;
+  background-color: #ffffff;
+  opacity: 0.8;
+  border-radius: 8px;
+  height: 80%;
+  margin: 100px 200px 32px 200px;
+  font-size: small;
+  position: fixed;
+}
+.content123 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  overflow-y: auto;
+  padding-right: 4rem;
+}
+.content123::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 10px;
+}
+
+.content123::-webkit-scrollbar-thumb {
+  background-color: #760e53;
+  border-radius: 200px;
+}
+.events,
+.convenor,
+.links {
+  border-bottom: 2px solid black;
+  padding: 4vh 0.5vw;
+  height: 50%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -49,6 +93,8 @@ hr {
   font-size: 16px;
   /* padding: 1em 0; */
   background: #120f0f40;
+  /* padding: 1em 0; */
+  background: #120f0f40;
   display: block;
   box-sizing: border-box;
 }
@@ -62,6 +108,12 @@ hr {
 .h1 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+.logo {
+  padding: 5%;
+}
+.h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
   margin-bottom: 40px;
   font-size: 20px;
@@ -69,6 +121,12 @@ hr {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+.links {
+  text-align: left;
+}
+i {
+  margin-right: 25px;
 }
 .links {
   text-align: left;
@@ -160,7 +218,53 @@ i {
   .container {
     margin-left: 4%;
     margin-right: 4%;
+.link {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 80px; */
   }
+  h6 {
+    font-size: small;
+  }
+  .content123 {
+    width: 100%;
+  }
+  .convpubl,
+  .evehosp,
+  .linkfollow {
+    width: 100%;
+  }
+  .events,
+  .hospitality,
+  .publicity,
+  .convenor,
+  .links {
+    border-bottom: 2px solid black;
+    padding: 2vh 0.5vw;
+    height: fit-content;
+  }
+  .events,
+  .hospitality,
+  .publicity,
+  .convenor {
+    text-align: left;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+@media (max-width: 730px) {
+  .container{
+    margin: 100px 100px 32px 100px;
 }
 @media (max-width: 730px) {
   .container{
@@ -170,13 +274,22 @@ i {
 @media (max-width: 540px) {
   .container{
     margin: 100px 50px 32px 50px;
+}
+@media (max-width: 540px) {
+  .container{
+    margin: 100px 50px 32px 50px;
   }
 }
 @media (max-width: 450px) {
   .container{
     margin: 100px 30px 32px 30px;
+  .container{
+    margin: 100px 30px 32px 30px;
   }
 }
+@media (max-width: 395px) {
+  .container{
+    margin: 100px 11px 32px 11px;
 @media (max-width: 395px) {
   .container{
     margin: 100px 11px 32px 11px;
@@ -185,8 +298,14 @@ i {
 @media (max-width: 350px) {
   .content123{
     padding-right: 0px;
+@media (max-width: 350px) {
+  .content123{
+    padding-right: 0px;
   }
 }
+@media (max-width:1450px) {
+  .links{
+    height: 60%;
 @media (max-width:1450px) {
   .links{
     height: 60%;

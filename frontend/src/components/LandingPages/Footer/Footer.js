@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Footer.module.css';
 import Carousel from '../Home/Carousel/Carouselhp';
 
+import Carousel from '../Home/Carousel/Carouselhp';
+
 
 const Footer = () => {
   return (
@@ -18,7 +20,23 @@ const Footer = () => {
             <div className={styles.content123}>
               <div className={styles.convpubl}>
                 <div className={styles.convenor}>
+    <>
+      <section id="contactus">
+        <Carousel />
+        <footer
+          className={`${styles.ftco_footer} ${styles.ftco_section} ${styles.img}`}
+        >
+          <div className={styles.container}>
+            <div className={styles.heading123}>
+              <h2><b><u>Contact Us</u></b></h2>
+            </div>
+            <div className={styles.content123}>
+              <div className={styles.convpubl}>
+                <div className={styles.convenor}>
                   <div>
+                    <h5><b>Convenor:</b></h5>
+                    <h6 className={styles.name}>Himanshu Ranjan</h6>
+                    <h6>himanshu.ranjan.met20@itbhu.ac.in</h6>
                     <h5><b>Convenor:</b></h5>
                     <h6 className={styles.name}>Himanshu Ranjan</h6>
                     <h6>himanshu.ranjan.met20@itbhu.ac.in</h6>
@@ -93,11 +111,23 @@ const Footer = () => {
                   <a href="tech@spardha.org.in" className={styles.link}>tech@spardha.org.in</a>
                   </div>
                   <br />
+                  <br />
                 </div>
                 <div className={styles.followus}>
                   <h5><b>Follow us:</b></h5>
                   <br />
+                <div className={styles.followus}>
+                  <h5><b>Follow us:</b></h5>
+                  <br />
                   <span>
+                    <a href="https://www.facebook.com/Spardha.IIT.BHU/" target="_blank" rel="noopener noreferrer">
+                      <img className={styles.socialmedia} src="/images/icons/icons8-facebook.svg" alt="facebook logo"></img>
+                    </a>
+                    <a href="https://www.linkedin.com/company/spardha/about/" target="_blank" rel="noopener noreferrer">
+                      <img className={styles.socialmedia} src="/images/icons/icons8-linkedin.svg" alt="linkedin logo"></img>
+                    </a>
+                    <a href="https://www.instagram.com/spardha_iitbhu/" target="_blank" rel="noopener noreferrer">
+                      <img className={styles.socialmedia} src="/images/icons/icons8-instagram.svg" alt="instagram logo"></img>
                     <a href="https://www.facebook.com/Spardha.IIT.BHU/" target="_blank" rel="noopener noreferrer">
                       <img className={styles.socialmedia} src="/images/icons/icons8-facebook.svg" alt="facebook logo"></img>
                     </a>
@@ -111,6 +141,10 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </footer>
+      </section>
+    </>
           </div>
         </footer>
       </section>

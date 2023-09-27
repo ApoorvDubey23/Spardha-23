@@ -6,6 +6,8 @@ import takeback from './takeback.png'
 import Greencounter from '../GreenCounter/Greencounter';
 import Carousel from '../Home/Carousel/Carouselhp';
 import Gallery from '../Gallery/Gallery'
+import Carousel from '../Home/Carousel/Carouselhp';
+import Gallery from '../Gallery/Gallery'
 const About = () => {
   return (
     <>
@@ -127,7 +129,82 @@ const About = () => {
                     </div>
                   </div>
                 </div>
+                <div className={styles['col-md-4']}>
+                  <div className={styles['block-7']}>
+                    <div style={{ textAlign: 'center' }}>
+                      <img
+                        src={talkofthetown}
+                        alt="/"
+                        style={{
+                          width: '21%',
+                          marginLeft: 'auto',
+                          marginRight: 'auto',
+                        }}
+                      />
+                      <h3
+                        className={styles['text-wrap']}
+                        style={{
+                          fontSize: '22px',
+                          color: 'black',
+                          lineHeight: '1.4',
+                          fontWeight: 'bold',
+                        }}
+                      >
+                        The&nbsp;Talk&nbsp;Of The&nbsp;Town
+                      </h3>
+                      <p className={`${styles.para2}`}>
+                        Each&nbsp;year&nbsp;thousands of participants at Spardha
+                        put their hard work to test in a vast array of sports. If
+                        this doesn't catch your attention, the bustle of 45,000
+                        people on the campus streets surely will. Its them who
+                        make Spardha the festival it is, a celebration of four
+                        long days.
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
+                <div className={styles['col-md-4']}>
+                  <div className={styles['block-7']}>
+                    <div style={{ textAlign: 'center' }}>
+                      <img
+                        src={takeback}
+                        alt="/"
+                        style={{
+                          width: '20%',
+                          marginLeft: 'auto',
+                          marginRight: 'auto',
+                        }}
+                      />
+                      <h3
+                        className={styles['text-wrap']}
+                        style={{
+                          fontSize: '22px',
+                          color: 'black',
+                          lineHeight: '1.4',
+                          fontWeight: 'bold',
+                        }}
+                      >
+                        What&nbsp;You Take Back
+                      </h3>
+                      <p className={`${styles.para3}`}>
+                        It's about making memories, and living them. Every time
+                        you win a race, or lose your voice cheering for your team,
+                        it adds up to your moments. We at Spardha make sure that
+                        you get an experience worth cherishing and some beautiful
+                        memories to treasure forever!
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Greencounter />
+            <Gallery />
+          </div>
                 <div className={styles['col-md-4']}>
                   <div className={styles['block-7']}>
                     <div style={{ textAlign: 'center' }}>

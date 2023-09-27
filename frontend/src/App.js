@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Preloader from './components/LandingPages/Preloader/Preloader';
 import Spinner from './components/DashBoard/Spinner/Spinner';
 import { Suspense } from 'react';
+import { Suspense } from 'react';
 
 import ReactGA from 'react-ga';
 import InitializeReactGA from './helper/googleAnalytics.ts';
@@ -19,8 +20,14 @@ const About = React.lazy(() => import('./components/LandingPages/About/About'));
 // const CamAmb = React.lazy(() =>
 //   import('./components/LandingPages/Camp_Amb/CamAmb')
 // );
+// const CamAmb = React.lazy(() =>
+//   import('./components/LandingPages/Camp_Amb/CamAmb')
+// );
 const Events = React.lazy(() =>
   import('./components/LandingPages/Events/Events')
+);
+const Admin = React.lazy(() =>
+  import('./components/DashBoard/Admin/Admin')
 );
 const Team = React.lazy(() => import('./components/LandingPages/Team/Team'));
 const Sponsors = React.lazy(() =>
@@ -75,6 +82,15 @@ const Footer1 = React.lazy(() =>
 const Matches =React.lazy(()=>
   import('./components/LandingPages/matches/matches')
 );
+const HomePage = React.lazy(() =>
+  import('./components/LandingPages/Home/HomePage/Home')
+);
+const Footer1 = React.lazy(() =>
+  import('./components/LandingPages/Footer/Footer')
+);
+const Matches =React.lazy(()=>
+  import('./components/LandingPages/matches/matches')
+);
 
 function usePageViews() {
   let location = useLocation();
@@ -109,6 +125,15 @@ function App() {
             }
           />
           <Route
+           <Route
+            path="/"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <HomePage />
+              </Suspense>
+            }
+          />
+          <Route
             path=""
             element={
               <Suspense fallback={<Preloader />}>
@@ -130,6 +155,7 @@ function App() {
               element={
                 <Suspense fallback={<Preloader />}>
                   <Signup />
+                  
                   
                 </Suspense>
               }
@@ -161,6 +187,7 @@ function App() {
                 </Suspense>
               }
             />
+            
             
             <Route
               exact
@@ -213,6 +240,14 @@ function App() {
             }
           />
           <Route
+            path="matches"
+            element={
+              <Suspense fallback={<Preloader />}>
+                <Matches />
+              </Suspense>
+            }
+          />
+          <Route
             path="guests"
             element={
               <Suspense fallback={<Preloader />}>
@@ -229,12 +264,14 @@ function App() {
             }
           />
           {/* <Route
+          {/* <Route
             path="ca"
             element={
               <Suspense fallback={<Preloader />}>
                 <CamAmb />
               </Suspense>
             }
+          /> */}
           /> */}
           <Route
             path="gallery"
@@ -252,8 +289,49 @@ function App() {
               </Suspense>
             }
           />
+          <Route
+            path="contactus"
+            element={
+              <Suspense fallback={<Preloader />}>
+                <Footer1 />
+              </Suspense>
+            }
+          />
         </Route>
+        
+        <Route
+          path="admin"  
+          element={
+            <Suspense fallback={<Preloader />}>
+              <Admin/>
+            </Suspense>
+          }
+          />
+          <Route
+            path="admin/showtable"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <ShowTable />
+              </Suspense>
+            }
+          />
+           <Route
+            path="admin/allgames"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <AllGameFixtures />
+              </Suspense>
+            }
+          />
 
+          <Route
+            path="admin/allusers"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <ShowallTable />
+              </Suspense>
+            }
+          />
         <Route
           path="/dashboard"
           element={
@@ -287,6 +365,7 @@ function App() {
             }
           />
         
+        
           <Route
             path="events"
             element={
@@ -303,6 +382,7 @@ function App() {
               </Suspense>
             }
           />
+         
          
         </Route>
       </Routes>

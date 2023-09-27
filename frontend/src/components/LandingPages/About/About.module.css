@@ -6,7 +6,17 @@
   border-radius: 20px;
   
 /*   border-radius: 14px; */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Poppins&display=swap');
+
+.col-md-4,
+.col-md-12 {
+  background-color: white;
+  border-radius: 20px;
+  
+/*   border-radius: 14px; */
 }
+
+.container{
 
 .container{
 
@@ -92,6 +102,7 @@ border-radius: 10px;
 
 .mb-1 {
   font-family: 'Poppins';
+  font-family: 'Poppins';
 }
 
 .mb-5 {
@@ -110,10 +121,12 @@ border-radius: 10px;
 
 .row {
  
+ 
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  border-radius: 30px;
   border-radius: 30px;
 }
 
@@ -151,6 +164,19 @@ border-radius: 10px;
 
 
 
+.mb-1 {
+  text-align: center;
+  /*padding-left: 150px;
+  padding-right: 150px;*/
+  margin-bottom: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  max-width: 100%;
+  min-height: 3px;
+}
+
+
+
 @media (min-width: 768px) {
   .col_md_7 {
     -webkit-box-flex: 0;
@@ -170,6 +196,7 @@ border-radius: 10px;
   text-transform: uppercase;
   font-family: 'League Spartan';
   background: #ded1dee5;
+  background: #ded1dee5;
 }
 
 .pt-5 {
@@ -186,6 +213,7 @@ border-radius: 10px;
   z-index: 1;
   letter-spacing: 7px;
   text-transform: uppercase;
+  font-family: 'Poppins';
   font-family: 'Poppins';
   margin-top: 5rem !important;
 }
@@ -208,7 +236,9 @@ border-radius: 10px;
   word-spacing: 5px;
   margin-left: 15px;
   font-family: 'Poppins';
+  font-family: 'Poppins';
   font-weight: bold;
+  background: #ded1dee5;
   background: #ded1dee5;
 }
 
@@ -218,6 +248,7 @@ border-radius: 10px;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 20px;
   margin-bottom: 20px;
 }
 
@@ -237,9 +268,11 @@ border-radius: 10px;
   padding: 30px;
   box-shadow: 0px 3px 35px - 24px black;
   background: white;
+  background: white;
   border-color: #000;
   /* margin-left: 55px;
     margin-right: 55px; */
+  border-radius: 30px;
   border-radius: 30px;
 }
 
@@ -250,6 +283,7 @@ border-radius: 10px;
 .text-justify {
   text-align: justify !important;
   color: #000;
+  color: #000;
 }
 
 .col-md-4 {
@@ -258,6 +292,11 @@ border-radius: 10px;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.text-justify p {
+  font-family: 'Poppins';
   margin-bottom: 30px;
 }
 
@@ -293,12 +332,17 @@ border-radius: 10px;
   font-family: 'Poppins';
   color: black;
   padding-bottom: 20px;
+  font-family: 'Poppins';
+  color: black;
+  padding-bottom: 20px;
   font-size: 17px;
   font-weight: 500;
   text-align: justify;
 }
 
 .para2 {
+  font-family: 'Poppins';
+  color: black;
   font-family: 'Poppins';
   color: black;
   padding-bottom: auto;
@@ -310,6 +354,8 @@ border-radius: 10px;
 .para3 {
   font-family: 'Poppins';
   color: black;
+  font-family: 'Poppins';
+  color: black;
   padding-bottom: auto;
   font-size: 17px;
   font-weight: 500;
@@ -319,15 +365,18 @@ border-radius: 10px;
 @media (min-width: 992px) and (max-width: 1200px) {
   .para1 {
     padding-bottom: 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .para1 {
     padding-bottom: 15px;
+    padding-bottom: 15px;
   }
 
   .para3 {
+    padding-bottom: 15px;
     padding-bottom: 15px;
   }
 }
