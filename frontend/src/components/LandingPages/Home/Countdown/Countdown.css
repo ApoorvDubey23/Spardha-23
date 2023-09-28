@@ -22,6 +22,10 @@
 .colon{
     font-size: 8vh;
     margin:auto;
+
+        position: relative;
+        top: -3vh;
+
 }
 .time{
     display: flex;
@@ -79,8 +83,10 @@
     }
     
     .colon{
-        font-size: 8vh;
+        font-size: 6vh;
         margin:auto;
+        position: relative;
+        top: -2vh;
     }
     .time{
         display: flex;

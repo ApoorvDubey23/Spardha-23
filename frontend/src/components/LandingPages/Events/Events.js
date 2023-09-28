@@ -671,12 +671,13 @@ const Events = () => {
                 className={`${styles.col_2} ${styles.padding} `}
                 id="0" onMouseEnter={athleticsMouseEnter}
                 onMouseLeave={athleticsMouseLeave}
+                onClick={onClick0}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={athletics1}
                   alt=""
-                  onClick={onClick0}
+                 
                 />
                 <p>Athletics</p>
               </div>
@@ -686,12 +687,13 @@ const Events = () => {
                 id="1"
                 onMouseEnter={badmintonMouseEnter}
                 onMouseLeave={badmintonMouseLeave}
+                onClick={onClick1}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={badminton1}
                   alt=""
-                  onClick={onClick1}
+                 
                 />
                 <p>Badminton</p>
 
@@ -702,12 +704,13 @@ const Events = () => {
                 id="2"
                 onMouseEnter={basketballMouseEnter}
                 onMouseLeave={basketballMouseLeave}
+                onClick={onClick2}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={basketball1}
                   alt=""
-                  onClick={onClick2}
+                 
                 />
                 <p>Basketball</p>
               </div>
@@ -716,12 +719,13 @@ const Events = () => {
                 id="3"
                 onMouseEnter={boxingMouseEnter}
                 onMouseLeave={boxingMouseLeave}
+                onClick={onClick3}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={boxing1}
                   alt=""
-                  onClick={onClick3}
+                 
                 />
                 <p>Boxing</p>
               </div>
@@ -772,12 +776,13 @@ const Events = () => {
                 id="0"
                 onMouseEnter={chessMouseEnter}
                 onMouseLeave={chessMouseLeave}
+                onClick={onClick4}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={chess1}
                   alt=""
-                  onClick={onClick4}
+                
                 />
                 <p>Chess</p>
               </div>
@@ -787,12 +792,13 @@ const Events = () => {
                 id="1"
                 onMouseEnter={cricketMouseEnter}
                 onMouseLeave={cricketMouseLeave}
+                onClick={onClick5}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={cricket1}
                   alt=""
-                  onClick={onClick5}
+                  
                 />
                 <p>Cricket</p>
               </div>
@@ -801,12 +807,13 @@ const Events = () => {
                 id="2"
                 onMouseEnter={cyclingMouseEnter}
                 onMouseLeave={cyclingMouseLeave}
+                onClick={onClick6}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={cycling1}
                   alt=""
-                  onClick={onClick6}
+                 
                 />
                 <p>Cycling</p>
 
@@ -816,12 +823,13 @@ const Events = () => {
                 id="3"
                 onMouseEnter={footballMouseEnter}
                 onMouseLeave={footballMouseLeave}
+                onClick={onClick7}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={football1}
                   alt=""
-                  onClick={onClick7}
+                
                 />
                 <p>Football</p>
 
@@ -864,12 +872,13 @@ const Events = () => {
                 id="0"
                 onMouseEnter={handballMouseEnter}
                 onMouseLeave={handballMouseLeave}
+                onClick={onClick8}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={handball1}
                   alt=""
-                  onClick={onClick8}
+                  
                 />
                 <p>Handball</p>
 
@@ -880,12 +889,13 @@ const Events = () => {
                 id="1"
                 onMouseEnter={hockeyMouseEnter}
                 onMouseLeave={hockeyMouseLeave}
+                onClick={onClick9}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={hockey1}
                   alt=""
-                  onClick={onClick9}
+                 
                 />
                 <p>Hockey</p>
 
@@ -895,12 +905,13 @@ const Events = () => {
                 id="2"
                 onMouseEnter={kabaddiMouseEnter}
                 onMouseLeave={kabaddiMouseLeave}
+                onClick={onClick10}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={kabaddi1}
                   alt=""
-                  onClick={onClick10}
+                 
                 />
                 <p>Kabaddi</p>
 
@@ -911,12 +922,13 @@ const Events = () => {
                 id="3"
                 onMouseEnter={khokhoMouseEnter}
                 onMouseLeave={khokhoMouseLeave}
+                onClick={onClick11}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={khokho1}
                   alt=""
-                  onClick={onClick11}
+                 
                 />
                 <p>kho-kho</p>
 
@@ -967,12 +979,13 @@ const Events = () => {
                 id="0"
                 onMouseEnter={powerliftingMouseEnter}
                 onMouseLeave={powerliftingMouseLeave}
+                onClick={onClick12}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={powerlifting1}
                   alt=""
-                  onClick={onClick12}
+               
                 />
                 <p>Powerlifting</p>
 
@@ -983,12 +996,13 @@ const Events = () => {
                 id="1"
                 onMouseEnter={squashMouseEnter}
                 onMouseLeave={squashMouseLeave}
+                onClick={onClick13}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={squash1}
                   alt=""
-                  onClick={onClick13}
+                 
                 />
                 <p>Squash</p>
 
@@ -999,12 +1013,12 @@ const Events = () => {
                 id="2"
                 onMouseEnter={tabletennisMouseEnter}
                 onMouseLeave={tabletennisMouseLeave}
+                onClick={onClick14}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={tabletennis1}
                   alt=""
-                  onClick={onClick14}
                 />
                 <p>TableTennis</p>
 
@@ -1015,12 +1029,12 @@ const Events = () => {
                 id="3"
                 onMouseEnter={taekwondoMouseEnter}
                 onMouseLeave={taekwondoMouseLeave}
+                onClick={onClick15}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={taekwondo1}
                   alt=""
-                  onClick={onClick15}
                 />
                 <p>Taekwondo</p>
 
@@ -1062,12 +1076,12 @@ const Events = () => {
                 id="0"
                 onMouseEnter={tennisMouseEnter}
                 onMouseLeave={tennisMouseLeave}
+                onClick={onClick16}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={tennis1}
                   alt=""
-                  onClick={onClick16}
                 />
                 <p>Tennis</p>
 
@@ -1078,12 +1092,12 @@ const Events = () => {
                 id="1"
                 onMouseEnter={volleyballMouseEnter}
                 onMouseLeave={volleyballMouseLeave}
+                onClick={onClick17}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={volleyball1}
                   alt=""
-                  onClick={onClick17}
                 />
                 <p>Volleyball</p>
 
@@ -1094,12 +1108,12 @@ const Events = () => {
                 id="2"
                 onMouseEnter={weightliftingMouseEnter}
                 onMouseLeave={weightliftingMouseLeave}
+                onClick={onClick18}
               >
                 <img
                   className={`${styles.img_responsive} ${styles.hvr_buzz_out} ${styles.grayscale}`}
                   src={weightlifting1}
                   alt=""
-                  onClick={onClick18}
                 />
                 <p>Weightlifting</p>
 
