@@ -157,7 +157,7 @@ width: max-content;
 	}
 }
 
-@media (max-width: 950px) and (min-width:790px) {
+@media (max-width: 950px) {
 
 	.container-home {
 		flex-direction: column;
