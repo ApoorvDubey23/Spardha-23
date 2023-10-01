@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import './Admin.css'
+import './AdminContent.css'
 import SideBar from './SideBar'
 import { isMobile } from 'react-device-detect';
 import AdminContent from './AdminContent';

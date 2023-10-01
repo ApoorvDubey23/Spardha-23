@@ -7,13 +7,33 @@ body{
 }
 .course{
 
-    margin: auto;
-    text-align: center;
+    /* margin: auto;
+    text-align: center; */
+    border-radius: 20px;
+    background: #FFF;
+    overflow-x: hidden;
+    width: 65vw;
+    height: 75vh;
 
 }
+.admin_dash_margin{
+    margin: 25px;
+}
 .course h1{
-    font-size: 35px;
+    color: var(--main-blue, #4D44B5);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
     font-weight: 600;
+    line-height: normal;
+}
+.course h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .course h3{
     color: #5041BC;
@@ -22,32 +42,44 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin: 16px 0 15px 0;
+    text-align: initial;
+    display: inline;
+    margin-left: 10px;
 }
 .course p{
-    padding: 10px;
-
+    /* padding: 10px; */
     color: var(--black-theme, #04103B);
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 15px;
 }
 .row{
     margin-top: 5px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    margin-left: 5px;
 }
 .course-col{
     /* flex-basis: 31%; */
-    background: #fff3f3;
+    /* background: #fff3f3; */
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    /* padding: 20px 12px; */
     box-sizing: border-box;
     transition: .5s;
     width: 200px;
     height: 148px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid var(--main-blue, #4D44B5);
+}
+.icon_n_text{
+    /* display: inline; */
+    margin: 16px 0 15px 0;
 }
 h3{
     text-align: center;
@@ -75,7 +107,7 @@ h3{
     background-color: green; */
 
     display: flex;
-    width: 161px;
+    /* width: 161px; */
     height: 25px;
     padding: 9px 19px;
     justify-content: center;
@@ -85,9 +117,18 @@ h3{
     border-radius: 40px;
     border: 1px solid var(--black-theme, #04103B);
     text-decoration: none;
+
+    color: var(--black-theme, #04103B);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .hero-btn:hover{
-    border: 1px solid rgb(0, 0, 0);
-    background: rgb(9, 56, 18);
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* background: rgb(9, 56, 18); */
+    background: var(--main-blue, #4D44B5);
+    color: #FFF;
     transition: 300ms;
 }
