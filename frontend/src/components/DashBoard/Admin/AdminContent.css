@@ -6,10 +6,10 @@ body{
     background-color: rgb(171, 172, 170);
 }
 .course{
-    width: 80%;
+
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+
 }
 .course h1{
     font-size: 35px;

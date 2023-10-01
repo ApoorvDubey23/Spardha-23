@@ -1,5 +1,5 @@
 import React from 'react'
-import './Admin.css'
+import './AdminContent.css'
 
 const Admin = () => {
   return (
