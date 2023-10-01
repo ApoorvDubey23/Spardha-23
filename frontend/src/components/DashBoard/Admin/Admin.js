@@ -1,10 +1,27 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Admin.css'
+import SideBar from './SideBar'
+import { isMobile } from 'react-device-detect';
 
 const Admin = () => {
-  return (
-    <div>
+    
+  const [sidebarIsOpen, setSidebarOpen] = useState(true);
+  const toggleSidebar = () => setSidebarOpen(!sidebarIsOpen);
+
+  useEffect(() => {
+    // console.log('mobile=', isMobile);
+    if (isMobile) {
+      setSidebarOpen(false);
+    }
+  }, []);
+  return (      
+      <div class="maindiv">
+          
+  <SideBar toggle={toggleSidebar} isOpen={sidebarIsOpen} />
          <section class="course">
+         <button onClick={toggleSidebar}>
+        {sidebarIsOpen ? 'Close Sidebar' : 'Open Sidebar'}
+      </button>
         <h1>Admin Dashboard</h1>
         <p>Access a comprehensive overview of all user data at a glance on this dedicated admin page.</p>
     
@@ -47,6 +64,7 @@ const Admin = () => {
 
     </section >
     </div>
+
   )
 }
 
