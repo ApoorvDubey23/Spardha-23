@@ -174,11 +174,23 @@ h3{
     transition: 300ms;
 }
 .logoutbtn{
-
-   
-    padding: 9px, 33px, 9px, 33px;
-    border-radius: 35px;
-    border: 2px solid #4D44B5;
-
+display: flex;
+justify-content: center;
+align-items: center;
+   border: 1.5px solid #4D44B5;
+   padding: 1vh 3vw;
+   border-radius: 30px;
+   height: fit-content;
     
+    }
+    .admininfo{
+        display: flex;
+    }
+    .logo{display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-color: gray;
     }
