@@ -4,18 +4,57 @@
 }
 body{
     background-color: rgb(171, 172, 170);
+    width: 100%;
+
 }
-.course{
+.course1{
 
     /* margin: auto;
     text-align: center; */
-    border-radius: 20px;
-    background: #FFF;
+    border-radius: 10px;
+
     overflow-x: hidden;
-    width: 65vw;
-    height: 75vh;
+    width: 100%;
+
 
 }
+.course{
+
+    /*9margin: auto;
+    text-align: center; */
+    border-radius: 10px;
+    background: #FFF;
+    overflow-x: hidden;
+    width: 100%;
+    height: 89.5%;
+
+
+}
+.topbar{
+    height: 10%;
+    margin-bottom: 0.3%;
+    border-radius: 10px;
+    background: #FFF;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0% 1vw ;
+}
+.topbar button{
+    height: 80%;
+    background-color: #4D44B5;
+    color: white;
+    border: 0px;
+
+    width: 36px;
+height: 80%;
+
+border-radius: 10px
+
+
+}
+
 .admin_dash_margin{
     margin: 25px;
 }

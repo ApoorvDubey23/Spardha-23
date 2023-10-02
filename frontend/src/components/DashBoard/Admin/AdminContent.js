@@ -1,9 +1,32 @@
 import React from 'react'
 import './Admin.css'
-
+import {useState,useEffect} from 'react'
+import { isMobile } from 'react-device-detect';
+import AdminSideBar from './AdminSideBar'
 const Admin = () => {
-  return (
-    <div>
+    const [sidebarIsOpen, setSidebarOpen] = useState(true);
+    const toggleSidebar = () => setSidebarOpen(!sidebarIsOpen);
+  
+    useEffect(() => {
+      // console.log('mobile=', isMobile);
+      if (isMobile) {
+        setSidebarOpen(false);
+      }
+    }, []);
+  return (<>
+    <AdminSideBar toggle={toggleSidebar} isOpen={sidebarIsOpen} />
+    <div class="course1">
+  <div class='topbar'>
+  <button class='oc'onClick={toggleSidebar}>
+        {sidebarIsOpen ? '<-' : '->'}
+      </button>
+
+      <div class='logoutbtn'>Logout</div>
+      <div class='admininfo'>
+        <div class="spardha">Spardha</div>
+        <div class="logo">LOGO</div>
+      </div>
+  </div>
          <section class="course">
         <div className='admin_dash_margin'>
         <h1>Admin Dashboard</h1>
@@ -71,7 +94,7 @@ const Admin = () => {
        
 
     </section >
-    </div>
+    </div></>
   )
 }
 

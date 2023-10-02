@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 import { NavItem, NavLink, Nav } from 'reactstrap';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import './SideBar.css';
+import './AdminSideBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaTasks } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
