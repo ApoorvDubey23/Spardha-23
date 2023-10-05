@@ -4,12 +4,11 @@
 .col-md-12 {
   background-color: white;
   border-radius: 20px;
-  
-/*   border-radius: 14px; */
+
 }
 
-.container{
-
+.container {
+  border-radius: 10px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
@@ -17,40 +16,38 @@
   box-sizing: border-box;
 
 }
-.maindiv{
+
+.maindiv {
   padding-top: 5vh;
   width: 95%;
   padding-right: 10px;
   padding-left: 10px;
   margin-left: auto;
   margin-right: auto;
-overflow: auto;
-height: 82vh;
-position: relative;
-top: 16vh;
-border-radius: 10px;
+  overflow: auto;
+  height: 82vh;
+  position: relative;
+  top: 16vh;
+  border-radius: 10px;
   background: #ded1dee5;
 }
+
 .scrollcontainer {
   width: 100%;
   padding-right: 10px;
   padding-left: 10px;
   margin-left: auto;
   margin-right: auto;
-overflow: auto;
-height: 67vh;
-position: relative;
-border-radius: 10px;
-
-
-
-}
-.container{
+  overflow: auto;
+  height: 67vh;
+  position: relative;
   border-radius: 10px;
 }
-.row{
+
+.row {
   border-radius: 10px;
 }
+
 /* Customize scrollbar appearance (optional) */
 .scrollcontainer::-webkit-scrollbar {
   width: 10px;
@@ -108,7 +105,7 @@ border-radius: 10px;
 }
 
 .row {
- 
+
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -139,8 +136,6 @@ border-radius: 10px;
 
 .mb-1 {
   text-align: center;
-  /*padding-left: 150px;
-  padding-right: 150px;*/
   margin-bottom: 100%;
   padding-right: 50px;
   padding-left: 50px;
@@ -161,7 +156,6 @@ border-radius: 10px;
 .heading_section.subheading {
   font-size: 20px;
   display: block;
-  /* margin-bottom: 15px; */
   margin-left: 15px;
   line-height: 1;
   z-index: 1;
@@ -179,7 +173,6 @@ border-radius: 10px;
 .subheading_mt-5 {
   font-size: 20px;
   display: block;
-  /* margin-bottom: 5px; */
   margin-left: 15px;
   line-height: 1;
   z-index: 1;
@@ -199,10 +192,8 @@ border-radius: 10px;
 
 .heading_section h2 {
   z-index: -1;
-  /* font-size: 100px; */
   position: relative;
   text-transform: uppercase;
-  /* line-height: 1.8; */
   letter-spacing: 2px;
   word-spacing: 5px;
   margin-left: 15px;
@@ -237,15 +228,8 @@ border-radius: 10px;
   box-shadow: 0px 3px 35px - 24px black;
   background: white;
   border-color: #000;
-  /* margin-left: 55px;
-    margin-right: 55px; */
   border-radius: 30px;
 }
-
-/* #borderline{
-  border-radius: 6px;
-} */
-
 .text-justify {
   text-align: justify !important;
   color: #000;
@@ -327,14 +311,16 @@ border-radius: 10px;
     padding-bottom: 15px;
   }
 }
-.midsection{
+
+.midsection {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  max-width:1120px
+  max-width: 1120px
 }
-@media (max-width: 768px){
-  .midsection{
+
+@media (max-width: 768px) {
+  .midsection {
     display: flex;
     flex-direction: column;
     gap: 10px;

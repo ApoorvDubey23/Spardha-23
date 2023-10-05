@@ -29,7 +29,7 @@ const About = () => {
 
                     }}
                   >
-                    About&nbsp;Us
+                    About Us
                   </h2>
           <div className={styles.scrollcontainer}>
             <div className={styles.container}>
@@ -78,7 +78,7 @@ const About = () => {
                           fontWeight: 'bold',
                         }}
                       >
-                        Hype&nbsp;Around Spardha
+                        Hype Around Spardha
                       </h3>
                       <p className={`${styles.para1}`}>
                         For starters, 2023 will witness the 38th edition of
@@ -113,10 +113,10 @@ const About = () => {
                           fontWeight: 'bold',
                         }}
                       >
-                        The&nbsp;Talk&nbsp;Of The&nbsp;Town
+                        The Talk Of The Town
                       </h3>
                       <p className={`${styles.para2}`}>
-                        Each&nbsp;year&nbsp;thousands of participants at Spardha
+                        Each year thousands of participants at Spardha
                         put their hard work to test in a vast array of sports. If
                         this doesn't catch your attention, the bustle of 45,000
                         people on the campus streets surely will. Its them who
